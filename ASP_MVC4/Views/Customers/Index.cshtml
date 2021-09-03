@@ -1,0 +1,29 @@
+﻿@model ASP_MVC4.Models.ViewModel.CustomerViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+
+@if (Model.Customers.Count == 0)
+{
+    <p>There is 0 customer to display!</p>
+}
+else
+{
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Customer</th>
+    </tr>
+    @foreach (var customer in Model.Customers)
+    {
+<tr>
+    <td>@Html.ActionLink(customer.Name, "Details", "Customers")</td>
+</tr>
+    }
+</table>
+
+}
+
+
