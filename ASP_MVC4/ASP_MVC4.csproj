@@ -197,9 +197,30 @@
     <Compile Include="Migrations\202109040203289_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>202109040203289_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109040254161_AddMembershipTypeName.cs" />
+    <Compile Include="Migrations\202109040254161_AddMembershipTypeName.Designer.cs">
+      <DependentUpon>202109040254161_AddMembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109040302048_AddBirthdayCustomer.cs" />
+    <Compile Include="Migrations\202109040302048_AddBirthdayCustomer.Designer.cs">
+      <DependentUpon>202109040302048_AddBirthdayCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109040313238_ConfigDisplayDateTime.cs" />
+    <Compile Include="Migrations\202109040313238_ConfigDisplayDateTime.Designer.cs">
+      <DependentUpon>202109040313238_ConfigDisplayDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109040317186_AddGenreTable.cs" />
+    <Compile Include="Migrations\202109040317186_AddGenreTable.Designer.cs">
+      <DependentUpon>202109040317186_AddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109040320415_ConfigMovieProperty.cs" />
+    <Compile Include="Migrations\202109040320415_ConfigMovieProperty.Designer.cs">
+      <DependentUpon>202109040320415_ConfigMovieProperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -272,6 +293,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\DisplayAllMovies.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -304,6 +326,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109040203289_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202109040203289_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109040254161_AddMembershipTypeName.resx">
+      <DependentUpon>202109040254161_AddMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109040302048_AddBirthdayCustomer.resx">
+      <DependentUpon>202109040302048_AddBirthdayCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109040313238_ConfigDisplayDateTime.resx">
+      <DependentUpon>202109040313238_ConfigDisplayDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109040317186_AddGenreTable.resx">
+      <DependentUpon>202109040317186_AddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109040320415_ConfigMovieProperty.resx">
+      <DependentUpon>202109040320415_ConfigMovieProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

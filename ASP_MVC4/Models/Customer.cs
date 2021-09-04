@@ -12,6 +12,8 @@ namespace ASP_MVC4.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+        [DisplayFormat(DataFormatString = "{0:dd MMM yyyy}")]
+        public DateTime? Birthday { get; set; }
         public bool IsSubscribedToNewsletter { get; set; }
         public MembershipType MembershipType { get; set; }
         public byte MemberShipTypeId { get; set; }

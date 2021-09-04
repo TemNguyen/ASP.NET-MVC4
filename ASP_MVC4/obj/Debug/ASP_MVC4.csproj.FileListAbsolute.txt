@@ -111,3 +111,9 @@ C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.addIsSubs
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.AddMembershipType.resources
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.PopulateMembershipType.resources
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.AddMembershipTypeName.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.AddBirthdayCustomer.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.ConfigDisplayDateTime.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.AddGenreTable.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.ConfigMovieProperty.resources
