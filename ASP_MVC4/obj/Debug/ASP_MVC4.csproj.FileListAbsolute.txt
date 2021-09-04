@@ -101,8 +101,13 @@ C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csprojAssemblyReference.cache
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.dll
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.pdb
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.InitialModel.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.addIsSubscribedToCustomer.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.AddMembershipType.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.PopulateMembershipType.resources
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.Migrations.ApplyAnnotationsToCustomerName.resources
