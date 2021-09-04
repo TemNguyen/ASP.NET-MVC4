@@ -24,11 +24,19 @@ namespace ASP_MVC4.Controllers
         }
 
         //customer/details/id
-        [Route("customers/details/id")]
-        public ActionResult Details(int id)
+        [Route("customers/details/{id}")]
+        public ActionResult Details(int? id)
         {
-            
-            return View();
+            var customers = GetCustomers();
+            if(id.HasValue)
+            {
+                foreach (var customer in customers)
+                {
+                    if (customer.Id == id)
+                        return View(customer);
+                }
+            }
+            return HttpNotFound();
         }
         private List<Customer> GetCustomers()
         {

@@ -8,7 +8,7 @@
 
 @if (Model.Customers.Count == 0)
 {
-    <p>There is 0 customer to display!</p>
+    <p>We don't have any customer yet.</p>
 }
 else
 {
@@ -19,7 +19,7 @@ else
     @foreach (var customer in Model.Customers)
     {
 <tr>
-    <td>@Html.ActionLink(customer.Name, "Details", "Customers")</td>
+    <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
 </tr>
     }
 </table>
