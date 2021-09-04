@@ -1,0 +1,25 @@
+﻿@model ASP_MVC4.Models.ViewModel.NewCustomerViewModel
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>New Customer</h2>
+
+@using (Html.BeginForm("Create", "Customers"))
+{
+    <div class="form-group">
+        @Html.LabelFor(p => p.Customer.Name)
+        @Html.TextBoxFor(p => p.Customer.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Customer.Birthday)
+        @Html.TextBoxFor(p => p.Customer.Birthday, new { @class = "form-control" })
+    </div>
+    <div class="form-check">
+        @Html.CheckBoxFor(p => p.Customer.IsSubscribedToNewsletter)
+        <label class="form-check-label" for="flexCheckDefault">
+            Subscribed to Newletter?
+        </label>
+    </div>
+}

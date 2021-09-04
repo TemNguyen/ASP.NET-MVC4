@@ -52,16 +52,16 @@ namespace ASP_MVC4.Controllers
             return Content("id: " + id);
         }
         //movie
-        public ActionResult Index(int? pageIndex, string SortBy)
-        {
-            if (!pageIndex.HasValue)
-                pageIndex = 1;
+        //public ActionResult Index(int? pageIndex, string SortBy)
+        //{
+        //    if (!pageIndex.HasValue)
+        //        pageIndex = 1;
 
-            if (String.IsNullOrWhiteSpace(SortBy))
-                SortBy = "Name";
-            return Content(String.Format("pageIndex = " + pageIndex + "&sortBy = " + SortBy));
-        }
-        public ActionResult DisplayAllMovies()
+        //    if (String.IsNullOrWhiteSpace(SortBy))
+        //        SortBy = "Name";
+        //    return Content(String.Format("pageIndex = " + pageIndex + "&sortBy = " + SortBy));
+        //}
+        public ActionResult Index()
         {
             var movies = _context.Movies.Include(p => p.Genre).ToList();
             var moviesViewModel = new MovieViewModel()
