@@ -19,7 +19,8 @@ namespace ASP_MVC4.Models
         public DateTime DateAdded { get; set; }
         [Required]
         [Display(Name = "Number In Stock")]
-        public int NumberInStock { get; set; }
+        [Range(1, 20)]
+        public int NumberInStock { get; set; } 
         [Display(Name = "Genre")]
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
