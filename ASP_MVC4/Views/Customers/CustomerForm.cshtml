@@ -19,14 +19,17 @@ else
     <div class="form-group">
         @Html.LabelFor(p => p.Customer.Name)
         @Html.TextBoxFor(p => p.Customer.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Customer.Name)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Customer.Birthday)
         @Html.TextBoxFor(p => p.Customer.Birthday, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Customer.Birthday)
     </div>
     <div class="form-group">
         @Html.LabelFor(p => p.Customer.MemberShipTypeId)
         @Html.DropDownListFor(p => p.Customer.MemberShipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Customer.MemberShipTypeId)
     </div>
     <div class="form-check">
         @Html.CheckBoxFor(p => p.Customer.IsSubscribedToNewsletter)
@@ -35,5 +38,11 @@ else
         </label>
     </div>
     @Html.HiddenFor(p => p.Customer.Id)
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
 }
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    }

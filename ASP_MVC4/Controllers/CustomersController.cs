@@ -50,8 +50,20 @@ namespace ASP_MVC4.Controllers
             return View("CustomerForm", viewModel);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
+            if (!ModelState.IsValid && customer.Id != 0)
+            {
+                var errors = ModelState.Values.SelectMany(p => p.Errors);
+                var viewModel = new CustomerFormViewModel()
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+
+                return View("CustomerForm", viewModel);
+            }
             if (customer.Id == 0)
             {
                 _context.Customers.Add(customer);
