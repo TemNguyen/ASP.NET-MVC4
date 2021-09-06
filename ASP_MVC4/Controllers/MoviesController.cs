@@ -53,12 +53,12 @@ namespace ASP_MVC4.Controllers
         //}
         public ActionResult Index()
         {
-            var movies = _context.Movies.Include(p => p.Genre).ToList();
-            var moviesViewModel = new MovieViewModel()
-            {
-                Movies = movies
-            };
-            return View(moviesViewModel);
+            //var movies = _context.Movies.Include(p => p.Genre).ToList();
+            //var moviesViewModel = new MovieViewModel()
+            //{
+            //    Movies = movies
+            //};
+            return View();
         }
         [Route("movies/details/{id}")]
         public ActionResult Details(int? id)

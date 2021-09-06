@@ -20,5 +20,6 @@ namespace ASP_MVC4.Dtos
         [Range(1, 20)]
         public int NumberInStock { get; set; }
         public int GenreId { get; set; }
+        public GenreDto Genre { get; set; }
     }
 }
