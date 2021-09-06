@@ -17,5 +17,6 @@ namespace ASP_MVC4.Dtos
         public DateTime? Birthday { get; set; }
         public bool IsSubscribedToNewsletter { get; set; }
         public byte MemberShipTypeId { get; set; }
+        public MembershipTypeDto MembershipType { get; set; }
     }
 }

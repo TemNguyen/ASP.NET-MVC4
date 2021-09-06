@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Data.Entity;
 
 namespace ASP_MVC4.Controllers.API
 {
@@ -18,11 +19,13 @@ namespace ASP_MVC4.Controllers.API
             _context = new ApplicationDbContext();
         }
         //get/api/customers
+        [HttpGet]
         public IEnumerable<CustomerDto> GetCustomers()
         {
-            return _context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            return _context.Customers.Include(p => p.MembershipType).ToList().Select(Mapper.Map<Customer, CustomerDto>);
         }
         //get/api/customers/1
+        [HttpGet]
         public CustomerDto GetCustomer(int id)
         {
             var customer = _context.Customers.SingleOrDefault(p => p.Id == id);

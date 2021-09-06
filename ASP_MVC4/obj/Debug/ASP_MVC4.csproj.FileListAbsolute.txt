@@ -118,7 +118,6 @@ C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csproj.CoreCompileIn
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.dll
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.pdb
-C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csprojAssemblyReference.cache
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\System.Net.Http.Formatting.dll
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\System.Web.Http.dll
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\System.Web.Http.WebHost.dll
@@ -127,3 +126,4 @@ C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\System.Web.Http.xml
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\System.Web.Http.WebHost.xml
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\AutoMapper.dll
 C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\bin\AutoMapper.xml
+C:\Users\ADMIN\Desktop\ASP_MVC4\ASP_MVC4\obj\Debug\ASP_MVC4.csprojAssemblyReference.cache

@@ -23,12 +23,13 @@ namespace ASP_MVC4.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            var customers = _context.Customers.Include(p => p.MembershipType).ToList();
-            var customersViewModel = new CustomerViewModel()
-            {
-                Customers = customers
-            };
-            return View(customersViewModel);
+            //var customers = _context.Customers.Include(p => p.MembershipType).ToList();
+            //var customersViewModel = new CustomerViewModel()
+            //{
+            //    Customers = customers
+            //};
+            //return View(customersViewModel);
+            return View();
         }
 
         //customer/details/id
